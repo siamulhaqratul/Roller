@@ -53,7 +53,7 @@ public class SpiningManager : MonoBehaviour {
 		isCoroutine = false;
 		randVal = Random.Range (200, 300);
 		AudioManager.instance.Play("Count");
-		timeInterval = 0.3f*Time.deltaTime*100;
+		timeInterval = 0.4f*Time.deltaTime*100;
 
 		for (int i = 0; i < randVal; i++) {
 
@@ -62,17 +62,21 @@ public class SpiningManager : MonoBehaviour {
 
 			//To slow Down Wheel
 			if (i > Mathf.RoundToInt (randVal * 0.2f))
-				timeInterval = 2f*Time.deltaTime;
+				timeInterval = 1.5f*Time.deltaTime;
+			    Debug.Log("t1" + timeInterval);
 			if (i > Mathf.RoundToInt (randVal * 0.5f))
+				timeInterval = 2f*Time.deltaTime;
+            Debug.Log("t2" + timeInterval);
+            if (i > Mathf.RoundToInt (randVal * 0.7f))
+				timeInterval = 2.5f*Time.deltaTime;
+            Debug.Log("t3" + timeInterval);
+            if (i > Mathf.RoundToInt (randVal * 0.8f))
 				timeInterval = 3f*Time.deltaTime;
-			if (i > Mathf.RoundToInt (randVal * 0.7f))
-				timeInterval = 4f*Time.deltaTime;
-			if (i > Mathf.RoundToInt (randVal * 0.8f))
-				timeInterval = 5f*Time.deltaTime;
-			if (i > Mathf.RoundToInt (randVal * 0.9f))
-				timeInterval = 6f*Time.deltaTime;
-
-			yield return new WaitForSeconds (timeInterval);
+            Debug.Log("t4" + timeInterval);
+            if (i > Mathf.RoundToInt (randVal * 0.9f))
+				timeInterval = 3.5f*Time.deltaTime;
+            Debug.Log("t5" + timeInterval);
+            yield return new WaitForSeconds (timeInterval);
 
 		}
 
