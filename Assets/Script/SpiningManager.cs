@@ -53,7 +53,7 @@ public class SpiningManager : MonoBehaviour {
 		isCoroutine = false;
 		randVal = Random.Range (200, 300);
 		AudioManager.instance.Play("Count");
-		timeInterval = 0.0001f*Time.deltaTime*2;
+		timeInterval = 0.3f*Time.deltaTime*100;
 
 		for (int i = 0; i < randVal; i++) {
 
@@ -62,15 +62,15 @@ public class SpiningManager : MonoBehaviour {
 
 			//To slow Down Wheel
 			if (i > Mathf.RoundToInt (randVal * 0.2f))
-				timeInterval = 0.5f*Time.deltaTime;
-			if (i > Mathf.RoundToInt (randVal * 0.5f))
-				timeInterval = 1f*Time.deltaTime;
-			if (i > Mathf.RoundToInt (randVal * 0.7f))
-				timeInterval = 1.5f*Time.deltaTime;
-			if (i > Mathf.RoundToInt (randVal * 0.8f))
 				timeInterval = 2f*Time.deltaTime;
+			if (i > Mathf.RoundToInt (randVal * 0.5f))
+				timeInterval = 3f*Time.deltaTime;
+			if (i > Mathf.RoundToInt (randVal * 0.7f))
+				timeInterval = 4f*Time.deltaTime;
+			if (i > Mathf.RoundToInt (randVal * 0.8f))
+				timeInterval = 5f*Time.deltaTime;
 			if (i > Mathf.RoundToInt (randVal * 0.9f))
-				timeInterval = 2.5f*Time.deltaTime;
+				timeInterval = 6f*Time.deltaTime;
 
 			yield return new WaitForSeconds (timeInterval);
 
