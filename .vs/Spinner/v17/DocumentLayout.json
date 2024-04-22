@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Spinner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\querystringmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\querystringmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\spinner\\assets\\script\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\repeatbid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\repeatbid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\playerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\spiningmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spiningmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\rankingrecorddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rankingrecorddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\historydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\historydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\cameraanchor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cameraanchor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\rrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\recorddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\recorddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\publishresultdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\publishresultdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\Spinner\\assets\\script\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDAB6FB-41FF-8BE6-C490-662D9984AB59}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepeatBid.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\RepeatBid.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RepeatBid.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\RepeatBid.cs",
+              "RelativeToolTip": "Assets\\Script\\RepeatBid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T04:08:51.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HistoryData.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\HistoryData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\HistoryData.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\HistoryData.cs",
+              "RelativeToolTip": "Assets\\Script\\HistoryData.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwBwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:26:44.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\ApiManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ApiManager.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\ApiManager.cs",
+              "RelativeToolTip": "Assets\\Script\\ApiManager.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAUwE0AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:55:36.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RankingRecordData.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\RankingRecordData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RankingRecordData.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\RankingRecordData.cs",
+              "RelativeToolTip": "Assets\\Script\\RankingRecordData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:55:36.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RRecord.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\RRecord.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RRecord.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\RRecord.cs",
+              "RelativeToolTip": "Assets\\Script\\RRecord.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:55:36.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CameraAnchor.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\CameraAnchor.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CameraAnchor.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\CameraAnchor.cs",
+              "RelativeToolTip": "Assets\\Script\\CameraAnchor.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T05:03:23.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QueryStringManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\QueryStringManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\QueryStringManager.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\QueryStringManager.cs",
+              "RelativeToolTip": "Assets\\Script\\QueryStringManager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:55:36.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SpiningManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\SpiningManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SpiningManager.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\SpiningManager.cs",
+              "RelativeToolTip": "Assets\\Script\\SpiningManager.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAIBpwJ8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:55:36.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:55:36.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CoinManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\CoinManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CoinManager.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\CoinManager.cs",
+              "RelativeToolTip": "Assets\\Script\\CoinManager.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwv2kAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:55:36.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Script\\AudioManager.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAApwE8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:24:54.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RecordData.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\RecordData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RecordData.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\RecordData.cs",
+              "RelativeToolTip": "Assets\\Script\\RecordData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T06:17:47.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerProfile.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\PlayerProfile.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerProfile.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\PlayerProfile.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:55:36.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PublishResultData.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\PublishResultData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PublishResultData.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\PublishResultData.cs",
+              "RelativeToolTip": "Assets\\Script\\PublishResultData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T05:38:38.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Loading.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\Loading.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Loading.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Spinner\\Assets\\Script\\Loading.cs",
+              "RelativeToolTip": "Assets\\Script\\Loading.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:55:36.772Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

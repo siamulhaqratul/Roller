@@ -1,0 +1,216 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\assets\\script\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|c:\\users\\siamu\\onedrive\\desktop\\spinner - copy\\assets\\script\\spiningmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spiningmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\assets\\script\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\assets\\script\\rrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\assets\\script\\rankingrecorddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rankingrecorddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\assets\\script\\querystringmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\querystringmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\assets\\script\\playerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\assets\\script\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\assets\\script\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\assets\\script\\cameraanchor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288CE8A6-D62C-76DA-6918-BFD4E4B668DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cameraanchor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B53FA1-F2C0-CABC-92B4-A9E512E2FC5E}|PhotonUnityNetworking.csproj|C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\assets\\photon\\photonunitynetworking\\code\\photonnetworkpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B53FA1-F2C0-CABC-92B4-A9E512E2FC5E}|PhotonUnityNetworking.csproj|solutionrelative:assets\\photon\\photonunitynetworking\\code\\photonnetworkpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpiningManager.cs",
+              "DocumentMoniker": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\SpiningManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SpiningManager.cs",
+              "ToolTip": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\SpiningManager.cs",
+              "RelativeToolTip": "Assets\\Script\\SpiningManager.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAcwF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:22:21.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RRecord.cs",
+              "DocumentMoniker": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\RRecord.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RRecord.cs",
+              "ToolTip": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\RRecord.cs",
+              "RelativeToolTip": "Assets\\Script\\RRecord.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:22:17.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RankingRecordData.cs",
+              "DocumentMoniker": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\RankingRecordData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RankingRecordData.cs",
+              "ToolTip": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\RankingRecordData.cs",
+              "RelativeToolTip": "Assets\\Script\\RankingRecordData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:22:13.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QueryStringManager.cs",
+              "DocumentMoniker": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\QueryStringManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\QueryStringManager.cs",
+              "ToolTip": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\QueryStringManager.cs",
+              "RelativeToolTip": "Assets\\Script\\QueryStringManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:22:08.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerProfile.cs",
+              "DocumentMoniker": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\PlayerProfile.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerProfile.cs",
+              "ToolTip": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\PlayerProfile.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:22:03.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NetworkManager.cs",
+              "DocumentMoniker": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\NetworkManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\NetworkManager.cs",
+              "ToolTip": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\NetworkManager.cs",
+              "RelativeToolTip": "Assets\\Script\\NetworkManager.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAIwAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:21:44.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Loading.cs",
+              "DocumentMoniker": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\Loading.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Loading.cs",
+              "ToolTip": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\Loading.cs",
+              "RelativeToolTip": "Assets\\Script\\Loading.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:21:33.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
+              "ToolTip": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:20:39.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoinManager.cs",
+              "DocumentMoniker": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\CoinManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CoinManager.cs",
+              "ToolTip": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\CoinManager.cs",
+              "RelativeToolTip": "Assets\\Script\\CoinManager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwJQAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:21:18.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiManager.cs",
+              "DocumentMoniker": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\ApiManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ApiManager.cs",
+              "ToolTip": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\ApiManager.cs",
+              "RelativeToolTip": "Assets\\Script\\ApiManager.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAuwOEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T13:17:42.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CameraAnchor.cs",
+              "DocumentMoniker": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\CameraAnchor.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CameraAnchor.cs",
+              "ToolTip": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Script\\CameraAnchor.cs",
+              "RelativeToolTip": "Assets\\Script\\CameraAnchor.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAADwvzMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:21:07.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PhotonNetworkPart.cs",
+              "DocumentMoniker": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
+              "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
+              "ToolTip": "C:\\Users\\siamu\\OneDrive\\Desktop\\Spinner - Copy\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
+              "RelativeToolTip": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
+              "ViewState": "AQIAAGACAAAAAAAAAADwv4YCAADTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:18:49.681Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

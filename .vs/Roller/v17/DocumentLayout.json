@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Yahbibi GAME\\New Game roler\\Roller\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|d:\\yahbibi game\\new game roler\\roller\\assets\\script\\spiningmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spiningmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|d:\\yahbibi game\\new game roler\\roller\\assets\\script\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|D:\\Yahbibi GAME\\New Game roler\\Roller\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|d:\\yahbibi game\\new game roler\\roller\\assets\\script\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpiningManager.cs",
+              "DocumentMoniker": "D:\\Yahbibi GAME\\New Game roler\\Roller\\Assets\\Script\\SpiningManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SpiningManager.cs",
+              "ToolTip": "D:\\Yahbibi GAME\\New Game roler\\Roller\\Assets\\Script\\SpiningManager.cs",
+              "RelativeToolTip": "Assets\\Script\\SpiningManager.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAiwDsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T11:07:21.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NetworkManager.cs",
+              "DocumentMoniker": "D:\\Yahbibi GAME\\New Game roler\\Roller\\Assets\\Script\\NetworkManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\NetworkManager.cs",
+              "ToolTip": "D:\\Yahbibi GAME\\New Game roler\\Roller\\Assets\\Script\\NetworkManager.cs",
+              "RelativeToolTip": "Assets\\Script\\NetworkManager.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAIwD8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T11:10:25.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Yahbibi GAME\\New Game roler\\Roller\\Assets\\Script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
+              "ToolTip": "D:\\Yahbibi GAME\\New Game roler\\Roller\\Assets\\Script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAASwCQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T05:20:05.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiManager.cs",
+              "DocumentMoniker": "D:\\Yahbibi GAME\\New Game roler\\Roller\\Assets\\Script\\ApiManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ApiManager.cs",
+              "ToolTip": "D:\\Yahbibi GAME\\New Game roler\\Roller\\Assets\\Script\\ApiManager.cs",
+              "RelativeToolTip": "Assets\\Script\\ApiManager.cs",
+              "ViewState": "AQIAALIBAAAAAAAAAIBJwJ0BAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T05:20:19.765Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
