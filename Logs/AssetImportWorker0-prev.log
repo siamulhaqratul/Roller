@@ -15,7 +15,7 @@ D:/Yahbibi GAME/New Game roler/Roller
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-7197
+1272
 Successfully changed project path to: D:/Yahbibi GAME/New Game roler/Roller
 D:/Yahbibi GAME/New Game roler/Roller
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Yahbibi GAME/New Game roler/Roller
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9264] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 1125964047 [EditorId] 1125964047 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P7C3MM9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4892] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 3407147799 [EditorId] 3407147799 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P7C3MM9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9264] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 1125964047 [EditorId] 1125964047 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P7C3MM9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4892] Host "[IP] 192.168.0.117 [Port] 0 [Flags] 2 [Guid] 3407147799 [EditorId] 3407147799 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-P7C3MM9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 49.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -67,52 +67,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.007045 seconds.
+Registered in 0.272549 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Android Extension - Scanning For ADB Devices 177 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 50.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.648 seconds
+- Completed reload, in  4.734 seconds
 Domain Reload Profiling:
-	ReloadAssembly (649ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (4734ms)
+		BeginReloadAssembly (3125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (511ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (1091ms)
+			LoadAssemblies (3133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (74ms)
+			SetupTypeCache (640ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (379ms)
+			SetupLoadedEditorAssemblies (383ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (230ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (50ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003466 seconds.
+Registered in 0.003484 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -120,31 +120,31 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.687 seconds
+- Completed reload, in  3.613 seconds
 Domain Reload Profiling:
-	ReloadAssembly (688ms)
+	ReloadAssembly (3614ms)
 		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (520ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (3393ms)
+			LoadAssemblies (2469ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (554ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (249ms)
+			SetupLoadedEditorAssemblies (314ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadAttributes (222ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -154,12 +154,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 30 unused Assets / (48.3 KB). Loaded Objects now: 3670.
 Memory consumption went from 114.2 MB to 114.2 MB.
-Total: 2.494200 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.129200 ms MarkObjects: 2.101000 ms  DeleteObjects: 0.062900 ms)
+Total: 2.491900 ms (FindLiveObjects: 0.219200 ms CreateObjectMapping: 0.153800 ms MarkObjects: 2.055400 ms  DeleteObjects: 0.062900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,313 +173,864 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5755.729434 seconds.
-  path: Assets/Sprite/Roller asset/Group 180.png
-  artifactKey: Guid(33f0e1db86b359f458190535c4ee832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/Group 180.png using Guid(33f0e1db86b359f458190535c4ee832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d55aad0ccff1fb4df77d57b4f9b1eac') in 0.079217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.949974 seconds.
-  path: Assets/Sprite/Roller asset/Group 199.png
-  artifactKey: Guid(578d397b1a6ea14438c6fbd096301bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/Group 199.png using Guid(578d397b1a6ea14438c6fbd096301bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b93996054297af8f78b8cc78bec58e') in 0.010644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.094507 seconds.
-  path: Assets/Sprite/Roller asset/Group 198.png
-  artifactKey: Guid(aec7f06174c8694408047851fa62d8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/Group 198.png using Guid(aec7f06174c8694408047851fa62d8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f4877544b878d45282ccdb3645efb0') in 0.010440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.441905 seconds.
-  path: Assets/Sprite/Roller asset/Group 180.png
-  artifactKey: Guid(33f0e1db86b359f458190535c4ee832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/Group 180.png using Guid(33f0e1db86b359f458190535c4ee832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f38d62e782e0a36fc69bb18e0a9060d') in 0.045034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprite/Roller asset/Group 198.png
-  artifactKey: Guid(aec7f06174c8694408047851fa62d8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/Group 198.png using Guid(aec7f06174c8694408047851fa62d8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a706a1f7c0c26d99cdcb3ea7e621a04') in 0.020956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprite/Roller asset/Group 199.png
-  artifactKey: Guid(578d397b1a6ea14438c6fbd096301bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/Group 199.png using Guid(578d397b1a6ea14438c6fbd096301bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbe9783d607d739fc7daffa1ca3e90a') in 0.017424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 182.805167 seconds.
-  path: Assets/Sprite/Roller asset/brand logo
-  artifactKey: Guid(43bb483da0375da4eb0a00c8a15d894b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo using Guid(43bb483da0375da4eb0a00c8a15d894b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2b37bdce73336c9e53047fda35effa') in 0.008371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.048246 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (4).png
-  artifactKey: Guid(f1c183168a8964948ab9b173c24c7990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (4).png using Guid(f1c183168a8964948ab9b173c24c7990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a8931f7441ee2fa40fc371ae51d1d6') in 0.010393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download__9_-removebg-preview.png
-  artifactKey: Guid(464ad1ab1bd823b4280251c41ef9453d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download__9_-removebg-preview.png using Guid(464ad1ab1bd823b4280251c41ef9453d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b46dcaec7d9e3882530012f5e7558f') in 0.009872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (10) 2.png
-  artifactKey: Guid(7efac531e3361534b9dac1d047020882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (10) 2.png using Guid(7efac531e3361534b9dac1d047020882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e36624f937e494639b18014908cef59') in 0.012070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (6).png
-  artifactKey: Guid(fff4e340ece4c9c40b0dc65a714371ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (6).png using Guid(fff4e340ece4c9c40b0dc65a714371ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b061ad6c90e56436826634cb0fe94f') in 0.009686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download-(12) 3.png
-  artifactKey: Guid(42ff6f4e521f8c54da174a2de6934766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download-(12) 3.png using Guid(42ff6f4e521f8c54da174a2de6934766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43f52d2ff98ea98595ae3275754f1e1') in 0.011003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (5).png
-  artifactKey: Guid(38c24613afd284b41a27e0f58590dca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (5).png using Guid(38c24613afd284b41a27e0f58590dca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f6a7696786506cc341d7223ef44b84') in 0.011552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (11) 3.png
-  artifactKey: Guid(18a57fcadb88e8a49a1ec01b01761433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (11) 3.png using Guid(18a57fcadb88e8a49a1ec01b01761433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e860d7f2657ad55f4564c453bd64ac3d') in 0.010311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (7).png
-  artifactKey: Guid(865e5794d063ad547af3029cfe35b80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (7).png using Guid(865e5794d063ad547af3029cfe35b80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68175c332b399520663c12600b960d5b') in 0.010183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (13) 3.png
-  artifactKey: Guid(75262dfda261a274fbf9a41283a58107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (13) 3.png using Guid(75262dfda261a274fbf9a41283a58107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76dc4adc714ca11e1950065244cbd4c') in 0.010292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (14) 3.png
-  artifactKey: Guid(8b06d5108dc1773468df7235992ef775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (14) 3.png using Guid(8b06d5108dc1773468df7235992ef775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8208999f6c8aac90282519e98a4318') in 0.010427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.381941 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (4).png
-  artifactKey: Guid(f1c183168a8964948ab9b173c24c7990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (4).png using Guid(f1c183168a8964948ab9b173c24c7990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bedaa965e6b5b4b8f88919d39184bd6') in 0.013792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download__9_-removebg-preview.png
-  artifactKey: Guid(464ad1ab1bd823b4280251c41ef9453d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download__9_-removebg-preview.png using Guid(464ad1ab1bd823b4280251c41ef9453d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1669bc1258d0d289af637d1c823c073a') in 0.011520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (10) 2.png
-  artifactKey: Guid(7efac531e3361534b9dac1d047020882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (10) 2.png using Guid(7efac531e3361534b9dac1d047020882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b3a156c22621a789752ee47365ee16') in 0.011549 seconds 
+  Time since last request: 1194.605715 seconds.
+  path: Assets/Sprite/Roller asset/cips/Group 217.png
+  artifactKey: Guid(073d31e0f4818454b9bdc645893bb298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Roller asset/cips/Group 217.png using Guid(073d31e0f4818454b9bdc645893bb298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5716f14913c1260a978f4e148769f42') in 0.139424 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (6).png
-  artifactKey: Guid(fff4e340ece4c9c40b0dc65a714371ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (6).png using Guid(fff4e340ece4c9c40b0dc65a714371ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0c5f9d13afc4a28b64c95fbcdf6e82') in 0.010259 seconds 
+  path: Assets/Sprite/Roller asset/cips/Group 140.png
+  artifactKey: Guid(2c35a5c5645d2ec40a453ef10967987f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Roller asset/cips/Group 140.png using Guid(2c35a5c5645d2ec40a453ef10967987f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ce5cce47e549526cdcfbf04863b788') in 0.011914 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download-(12) 3.png
-  artifactKey: Guid(42ff6f4e521f8c54da174a2de6934766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download-(12) 3.png using Guid(42ff6f4e521f8c54da174a2de6934766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b374b5244d8528a91feb3cfa893418ee') in 0.009294 seconds 
+  Time since last request: 144.112735 seconds.
+  path: Assets/Sprite/Roller asset/1.png
+  artifactKey: Guid(8905112f34603d74cab7473f79863048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Roller asset/1.png using Guid(8905112f34603d74cab7473f79863048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039e1ca81393906dd3413401ab333059') in 0.009192 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (5).png
-  artifactKey: Guid(38c24613afd284b41a27e0f58590dca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (5).png using Guid(38c24613afd284b41a27e0f58590dca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f46c216743a014d60b9e01b7bf440c') in 0.011073 seconds 
+  Time since last request: 4.422378 seconds.
+  path: Assets/Sprite/Roller asset/1.png
+  artifactKey: Guid(8905112f34603d74cab7473f79863048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Roller asset/1.png using Guid(8905112f34603d74cab7473f79863048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88d1de262e6010d279521d431391137') in 0.014029 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (11) 3.png
-  artifactKey: Guid(18a57fcadb88e8a49a1ec01b01761433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (11) 3.png using Guid(18a57fcadb88e8a49a1ec01b01761433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17e92232820dab724908a0cd94b04af') in 0.011054 seconds 
+  Time since last request: 36.368496 seconds.
+  path: Assets/Sprite/Roller asset/1.png
+  artifactKey: Guid(8905112f34603d74cab7473f79863048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Roller asset/1.png using Guid(8905112f34603d74cab7473f79863048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09bb26bfcb8e8bf7fdc8a750ca43858') in 0.011619 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (7).png
-  artifactKey: Guid(865e5794d063ad547af3029cfe35b80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (7).png using Guid(865e5794d063ad547af3029cfe35b80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a35e789d528e3d4aa9d5fd836930b6') in 0.010695 seconds 
+  Time since last request: 43.429568 seconds.
+  path: Assets/Sprite/Roller asset/1.png
+  artifactKey: Guid(8905112f34603d74cab7473f79863048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Roller asset/1.png using Guid(8905112f34603d74cab7473f79863048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a78db9a572038f2ca19ee78eddc588') in 0.011298 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (13) 3.png
-  artifactKey: Guid(75262dfda261a274fbf9a41283a58107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (13) 3.png using Guid(75262dfda261a274fbf9a41283a58107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14f9443ef56308316141b45e18ecdc7') in 0.009196 seconds 
+  Time since last request: 7.432855 seconds.
+  path: Assets/Sprite/Roller asset/Group-1.png
+  artifactKey: Guid(31cdca9041d45454a8d4d217cadedd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Roller asset/Group-1.png using Guid(31cdca9041d45454a8d4d217cadedd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df74e356b2e0f08fc9a8065aec700be4') in 0.009914 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/download (14) 3.png
-  artifactKey: Guid(8b06d5108dc1773468df7235992ef775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/download (14) 3.png using Guid(8b06d5108dc1773468df7235992ef775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0282cce6e2c2c3510c2110cef49736c') in 0.010761 seconds 
+  Time since last request: 4.738364 seconds.
+  path: Assets/Sprite/Roller asset/Group-1.png
+  artifactKey: Guid(31cdca9041d45454a8d4d217cadedd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Roller asset/Group-1.png using Guid(31cdca9041d45454a8d4d217cadedd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbd1d849c9e4c4460bed8445e2e60a7') in 0.013660 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 545.615141 seconds.
-  path: Assets/Sprite/Roller asset/cips
-  artifactKey: Guid(e79be5d73f2c6214dbc407ae88787232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/cips using Guid(e79be5d73f2c6214dbc407ae88787232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1e363ae07af4ef5ed580ed587f2a81') in 0.008536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.078430 seconds.
-  path: Assets/Sprite/Roller asset/cips/Group 135.png
-  artifactKey: Guid(9baa7a298869c2f49966845d5a06641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/cips/Group 135.png using Guid(9baa7a298869c2f49966845d5a06641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ae01897d39066aa6300e1394e219bc') in 0.010458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprite/Roller asset/cips/Group 136.png
-  artifactKey: Guid(6baf2b9ca5a4a9047a67c9a369dab05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/cips/Group 136.png using Guid(6baf2b9ca5a4a9047a67c9a369dab05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6e8e4b924ca0c81f6824e03b286257') in 0.012266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprite/Roller asset/cips/Group 137.png
-  artifactKey: Guid(e4070b5bcc612a94fa231fa9e7fc6247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/cips/Group 137.png using Guid(e4070b5bcc612a94fa231fa9e7fc6247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e3490b599ddf7b8840541c5207a665') in 0.012492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprite/Roller asset/cips/Group 139.png
-  artifactKey: Guid(f060686a56770544c81b1f0f8f979e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/cips/Group 139.png using Guid(f060686a56770544c81b1f0f8f979e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13789f9e7933a1e457c7268b1da7d3f0') in 0.011479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprite/Roller asset/cips/Group 138.png
-  artifactKey: Guid(6382ef4daf4dea44cb6430be75f782fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/cips/Group 138.png using Guid(6382ef4daf4dea44cb6430be75f782fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4f5e477170bac5f00c60c894c2459c') in 0.012120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.809614 seconds.
-  path: Assets/Sprite/Roller asset/cips/Group 135.png
-  artifactKey: Guid(9baa7a298869c2f49966845d5a06641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/cips/Group 135.png using Guid(9baa7a298869c2f49966845d5a06641b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d78ad4f8bc6754d46f88cbc584fbab9') in 0.013308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprite/Roller asset/cips/Group 136.png
-  artifactKey: Guid(6baf2b9ca5a4a9047a67c9a369dab05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/cips/Group 136.png using Guid(6baf2b9ca5a4a9047a67c9a369dab05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70432aad82bc10ef7837ec7b437e26e') in 0.011861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprite/Roller asset/cips/Group 137.png
-  artifactKey: Guid(e4070b5bcc612a94fa231fa9e7fc6247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/cips/Group 137.png using Guid(e4070b5bcc612a94fa231fa9e7fc6247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e1ac7245974283579797498ff47148') in 0.013323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprite/Roller asset/cips/Group 139.png
-  artifactKey: Guid(f060686a56770544c81b1f0f8f979e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/cips/Group 139.png using Guid(f060686a56770544c81b1f0f8f979e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896c202cddd667d4e8bb187e3012d197') in 0.011391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprite/Roller asset/cips/Group 138.png
-  artifactKey: Guid(6382ef4daf4dea44cb6430be75f782fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/cips/Group 138.png using Guid(6382ef4daf4dea44cb6430be75f782fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c4522ca672cb6173a90f3dd97a31d6') in 0.012359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4048.638295 seconds.
-  path: Assets/Sprite/Roller asset/icon/Group 130.png
-  artifactKey: Guid(af1d1a8171b92614687a0f8e0945a151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/icon/Group 130.png using Guid(af1d1a8171b92614687a0f8e0945a151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9318657b6c25e3eaff995b91987121') in 0.014922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprite/Roller asset/icon/Group 131.png
-  artifactKey: Guid(36094c93baff8b34e93be3134b0a8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/icon/Group 131.png using Guid(36094c93baff8b34e93be3134b0a8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc7b23a51cde5976de7d5ff73ab0bca') in 0.010231 seconds 
+  Time since last request: 352.189707 seconds.
+  path: Assets/Sprite/Roller asset/Group 222.png
+  artifactKey: Guid(07c7fbe96fe6b104a99c1697ab80a18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Roller asset/Group 222.png using Guid(07c7fbe96fe6b104a99c1697ab80a18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1017f445f76cd118a81dc828cf99253') in 0.010137 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Sprite/Roller asset/icon/Group 133.png
-  artifactKey: Guid(72d09206f3bd371419a40a330d36053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/icon/Group 133.png using Guid(72d09206f3bd371419a40a330d36053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcb81c84fb2c40f83f7d8d742b06c6b') in 0.010881 seconds 
+  path: Assets/Sprite/Roller asset/Vector.png
+  artifactKey: Guid(145c55f8b3d26d241ba1d359b9f17921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Roller asset/Vector.png using Guid(145c55f8b3d26d241ba1d359b9f17921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cc7cdb2ac50a004d435bb44c345e6e') in 0.009662 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprite/Roller asset/icon/Group 134.png
-  artifactKey: Guid(c770166249011e640b635d22165137a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/icon/Group 134.png using Guid(c770166249011e640b635d22165137a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387ef534077918690a7ef5b6c4489bc4') in 0.010595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprite/Roller asset/icon/Group 132.png
-  artifactKey: Guid(c3e88488006db9047bb8309ab9cbd175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/icon/Group 132.png using Guid(c3e88488006db9047bb8309ab9cbd175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bebf09ca85dbe8e23b832f13d12bdc1') in 0.009514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.031599 seconds.
-  path: Assets/Sprite/Roller asset/icon/Group 130.png
-  artifactKey: Guid(af1d1a8171b92614687a0f8e0945a151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/icon/Group 130.png using Guid(af1d1a8171b92614687a0f8e0945a151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cea2a19ef20ec6c45e53ade8b5bccd') in 0.012811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprite/Roller asset/icon/Group 131.png
-  artifactKey: Guid(36094c93baff8b34e93be3134b0a8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/icon/Group 131.png using Guid(36094c93baff8b34e93be3134b0a8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e3b23e680edd0e3674e93af8863da4') in 0.010180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprite/Roller asset/icon/Group 133.png
-  artifactKey: Guid(72d09206f3bd371419a40a330d36053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/icon/Group 133.png using Guid(72d09206f3bd371419a40a330d36053d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775a2a5b0ff6d24a39b9c87ae4e1e397') in 0.011251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprite/Roller asset/icon/Group 134.png
-  artifactKey: Guid(c770166249011e640b635d22165137a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/icon/Group 134.png using Guid(c770166249011e640b635d22165137a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a44ff17c3b8e05c9fecb34b38fd6ca3') in 0.012412 seconds 
+  Time since last request: 3.912881 seconds.
+  path: Assets/Sprite/Roller asset/Group 222.png
+  artifactKey: Guid(07c7fbe96fe6b104a99c1697ab80a18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Roller asset/Group 222.png using Guid(07c7fbe96fe6b104a99c1697ab80a18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc9de1db5e994f72202e8c723da256f') in 0.011893 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Sprite/Roller asset/icon/Group 132.png
-  artifactKey: Guid(c3e88488006db9047bb8309ab9cbd175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/icon/Group 132.png using Guid(c3e88488006db9047bb8309ab9cbd175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2f19d8bbd26547125a536c9cc23058') in 0.011955 seconds 
+  path: Assets/Sprite/Roller asset/Vector.png
+  artifactKey: Guid(145c55f8b3d26d241ba1d359b9f17921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Roller asset/Vector.png using Guid(145c55f8b3d26d241ba1d359b9f17921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f1490ffe9b9b2e5a4ebf92c53cebbb') in 0.012467 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003272 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Domain Reload Profiling:
+	ReloadAssembly (776ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (602ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 3696.
+Memory consumption went from 116.9 MB to 116.9 MB.
+Total: 2.356500 ms (FindLiveObjects: 0.200200 ms CreateObjectMapping: 0.077600 ms MarkObjects: 2.059000 ms  DeleteObjects: 0.018800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 292.832933 seconds.
-  path: Assets/Sprite/Roller asset/brand logo/Group 216.png
-  artifactKey: Guid(9e990b2ec786e544b8b50ebc25c3bc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/brand logo/Group 216.png using Guid(9e990b2ec786e544b8b50ebc25c3bc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10245893850bc9e4c99590b0007aa6f0') in 0.011750 seconds 
+  Time since last request: 380.956125 seconds.
+  path: Assets/Scenes/LoadingScene.unity
+  artifactKey: Guid(20986984a5c4e17449853981f6879f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoadingScene.unity using Guid(20986984a5c4e17449853981f6879f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98078b737db78018ece9342fa8efff8c') in 0.012927 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003299 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Domain Reload Profiling:
+	ReloadAssembly (736ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (561ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 3700.
+Memory consumption went from 116.9 MB to 116.9 MB.
+Total: 4.083500 ms (FindLiveObjects: 0.610700 ms CreateObjectMapping: 0.090300 ms MarkObjects: 3.333600 ms  DeleteObjects: 0.047500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003340 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Domain Reload Profiling:
+	ReloadAssembly (642ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (473ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 3704.
+Memory consumption went from 116.9 MB to 116.9 MB.
+Total: 3.851200 ms (FindLiveObjects: 0.553700 ms CreateObjectMapping: 0.092400 ms MarkObjects: 3.182900 ms  DeleteObjects: 0.020800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.417626 seconds.
-  path: Assets/Sprite/Roller asset/Group 216.png
-  artifactKey: Guid(9e990b2ec786e544b8b50ebc25c3bc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/Group 216.png using Guid(9e990b2ec786e544b8b50ebc25c3bc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb72653f777567454b4f771bd2305077') in 0.023228 seconds 
+  Time since last request: 326.547475 seconds.
+  path: Assets/Scenes/Game 2.unity
+  artifactKey: Guid(502ab59f7e6f44840887c45d23c111a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game 2.unity using Guid(502ab59f7e6f44840887c45d23c111a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e894a5997136b42be97fb6491e26ff60') in 0.013815 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003287 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.656 seconds
+Domain Reload Profiling:
+	ReloadAssembly (656ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 3708.
+Memory consumption went from 117.0 MB to 116.9 MB.
+Total: 2.481700 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.066600 ms MarkObjects: 2.206500 ms  DeleteObjects: 0.018600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003301 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (157ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 3712.
+Memory consumption went from 117.0 MB to 117.0 MB.
+Total: 4.208900 ms (FindLiveObjects: 0.476300 ms CreateObjectMapping: 0.078600 ms MarkObjects: 3.609400 ms  DeleteObjects: 0.042700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.197768 seconds.
-  path: Assets/Sprite/Roller asset/1.png
-  artifactKey: Guid(e49d5ed63b2737e45b32921242f1c8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/1.png using Guid(e49d5ed63b2737e45b32921242f1c8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9597f9c30895a0eb1b7dae1d214713') in 0.011841 seconds 
+  Time since last request: 113.438634 seconds.
+  path: Assets/Scenes/Game 2.unity
+  artifactKey: Guid(502ab59f7e6f44840887c45d23c111a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game 2.unity using Guid(502ab59f7e6f44840887c45d23c111a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ae85fc85346a88f37a27989e9b6769') in 0.009120 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003452 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Domain Reload Profiling:
+	ReloadAssembly (748ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (575ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.8 KB). Loaded Objects now: 3716.
+Memory consumption went from 117.0 MB to 117.0 MB.
+Total: 4.281700 ms (FindLiveObjects: 0.645900 ms CreateObjectMapping: 0.118700 ms MarkObjects: 3.489900 ms  DeleteObjects: 0.025600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.602186 seconds.
-  path: Assets/Sprite/Roller asset/1.png
-  artifactKey: Guid(e49d5ed63b2737e45b32921242f1c8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Roller asset/1.png using Guid(e49d5ed63b2737e45b32921242f1c8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42544ab6a40fc9c56f64bcd9b36f944') in 0.014002 seconds 
+  Time since last request: 38.228807 seconds.
+  path: Assets/Scenes/Game 2.unity
+  artifactKey: Guid(502ab59f7e6f44840887c45d23c111a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game 2.unity using Guid(502ab59f7e6f44840887c45d23c111a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484138487d1c627d8ea070e4147efa56') in 0.008849 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003358 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.644 seconds
+Domain Reload Profiling:
+	ReloadAssembly (645ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (475ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 3720.
+Memory consumption went from 117.0 MB to 117.0 MB.
+Total: 2.283400 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.076800 ms MarkObjects: 1.997400 ms  DeleteObjects: 0.015800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003341 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.674 seconds
+Domain Reload Profiling:
+	ReloadAssembly (675ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 3724.
+Memory consumption went from 117.0 MB to 117.0 MB.
+Total: 2.169900 ms (FindLiveObjects: 0.196700 ms CreateObjectMapping: 0.076700 ms MarkObjects: 1.875900 ms  DeleteObjects: 0.019800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003316 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (744ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (574ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (157ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 3728.
+Memory consumption went from 117.0 MB to 117.0 MB.
+Total: 4.238900 ms (FindLiveObjects: 0.544700 ms CreateObjectMapping: 0.084200 ms MarkObjects: 3.568000 ms  DeleteObjects: 0.039800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003306 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (661ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 3732.
+Memory consumption went from 117.0 MB to 117.0 MB.
+Total: 2.894900 ms (FindLiveObjects: 0.271000 ms CreateObjectMapping: 0.082900 ms MarkObjects: 2.515600 ms  DeleteObjects: 0.024400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003310 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.726 seconds
+Domain Reload Profiling:
+	ReloadAssembly (726ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (555ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 3736.
+Memory consumption went from 117.0 MB to 117.0 MB.
+Total: 4.041900 ms (FindLiveObjects: 0.608600 ms CreateObjectMapping: 0.076500 ms MarkObjects: 3.312100 ms  DeleteObjects: 0.042800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003272 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.660 seconds
+Domain Reload Profiling:
+	ReloadAssembly (661ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.8 KB). Loaded Objects now: 3740.
+Memory consumption went from 117.0 MB to 117.0 MB.
+Total: 2.343500 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.055700 ms  DeleteObjects: 0.018900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003281 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Yahbibi GAME\New Game roler\Roller\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Domain Reload Profiling:
+	ReloadAssembly (746ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (574ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 3744.
+Memory consumption went from 117.1 MB to 117.0 MB.
+Total: 4.265700 ms (FindLiveObjects: 0.488100 ms CreateObjectMapping: 0.092800 ms MarkObjects: 3.643500 ms  DeleteObjects: 0.039300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
