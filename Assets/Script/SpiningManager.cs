@@ -48,62 +48,63 @@ public class SpiningManager : MonoBehaviour {
 
     }
 
-	private IEnumerator Spin(){
+    private IEnumerator Spin()
+    {
+        isCoroutine = false;
+        randVal = Random.Range(200, 300);
+        Debug.Log(randVal);
+        AudioManager.instance.Play("Count");
+        timeInterval = 0.4f * Time.deltaTime * 100;
+        transform.Rotate(0, 0, totalAngle); // Rotate initially by the total angle
 
-		isCoroutine = false;
-		randVal = Random.Range (200, 300);
-		AudioManager.instance.Play("Count");
-		timeInterval = 0.0001f*Time.deltaTime*2;
+        // Determine the rotation direction based on the total angle
+        float rotationDirection = Mathf.Sign(totalAngle);
 
-		for (int i = 0; i < randVal; i++) {
+        for (int i = 0; i < randVal; i++)
+        {
+            // Rotate by the total angle for each step, ensuring rotation in one direction
+            transform.Rotate(0, 0, rotationDirection * totalAngle);
 
-			transform.Rotate (0, 0, (totalAngle)); 
+            // Adjust time intervals to slow down the wheel gradually
+            if (i > Mathf.RoundToInt(randVal * 0.2f))
+                timeInterval = 1.5f * Time.deltaTime;
+            if (i > Mathf.RoundToInt(randVal * 0.5f))
+                timeInterval = 2f * Time.deltaTime;
+            if (i > Mathf.RoundToInt(randVal * 0.7f))
+                timeInterval = 2.5f * Time.deltaTime;
+            if (i > Mathf.RoundToInt(randVal * 0.8f))
+                timeInterval = 3f * Time.deltaTime;
+            if (i > Mathf.RoundToInt(randVal * 0.9f))
+                timeInterval = 3.5f * Time.deltaTime;
+            if (i > Mathf.RoundToInt(randVal * 1f))
+                timeInterval = 4f * Time.deltaTime;
 
+            yield return new WaitForSeconds(timeInterval);
+        }
 
-			//To slow Down Wheel
-			if (i > Mathf.RoundToInt (randVal * 0.2f))
-				timeInterval = 0.5f*Time.deltaTime;
-			if (i > Mathf.RoundToInt (randVal * 0.5f))
-				timeInterval = 1f*Time.deltaTime;
-			if (i > Mathf.RoundToInt (randVal * 0.7f))
-				timeInterval = 1.5f*Time.deltaTime;
-			if (i > Mathf.RoundToInt (randVal * 0.8f))
-				timeInterval = 2f*Time.deltaTime;
-			if (i > Mathf.RoundToInt (randVal * 0.9f))
-				timeInterval = 2.5f*Time.deltaTime;
+        // Ensure the wheel stops at a valid angle
+        if (Mathf.RoundToInt(transform.eulerAngles.z) % totalAngle != 0)
+            transform.Rotate(0, 0, totalAngle);
 
-			yield return new WaitForSeconds (timeInterval);
+        finalAngle = Mathf.RoundToInt(transform.eulerAngles.z);
+        Debug.Log("spin" + finalAngle);
 
-		}
-
-		if (Mathf.RoundToInt (transform.eulerAngles.z) % totalAngle != 0) //when the indicator stop between 2 numbers,it will add aditional step 
-			transform.Rotate (0, 0, totalAngle);
-		
-		finalAngle = Mathf.RoundToInt (transform.eulerAngles.z);//round off euler angle of wheel value
-
-		Debug.Log("spin" + finalAngle);
-
-		//Prize check
-		for (int i = 0; i < section; i++) {
-
-			if (finalAngle == i * totalAngle) 
-			{
+        // Check the final angle to determine the prize
+        for (int i = 0; i < section; i++)
+        {
+            if (finalAngle == i * totalAngle)
+            {
                 if (PhotonNetwork.IsMasterClient)
                 {
                     pView.RPC("WinningPanelActive", RpcTarget.AllBuffered, i);
-
                 }
-
-
             }
-
         }
 
-	
-		isCoroutine = true;
-	}
+        isCoroutine = true;
+    }
 
-	[PunRPC]
+    [PunRPC]
 	public void WinningPanelActive(int i) 
 	{
         StartCoroutine("ActivateWiningPanel", i);
