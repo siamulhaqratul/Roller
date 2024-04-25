@@ -51,7 +51,7 @@ public class SpiningManager : MonoBehaviour {
     {
         isCoroutine = false;
         // Phase 1: Initial Spin
-        float initialSpinDuration = 5f; // Duration of initial spinning in seconds
+        float initialSpinDuration = 4f; // Duration of initial spinning in seconds
         float initialRotationSpeed = 360f / initialSpinDuration; // Rotation speed for initial spin
         AudioManager.instance.Play("Count");
 

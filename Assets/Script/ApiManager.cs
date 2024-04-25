@@ -411,7 +411,7 @@ public class ApiManager : MonoBehaviour
         StartCoroutine(RepeatBidWebRequest());
     }
 
-    IEnumerator RepeatBidWebRequest()
+    IEnumerator RepeatBidWebRequest ()
     {
         yield return new WaitForSeconds(0.2f);
         WWWForm form = new WWWForm();
