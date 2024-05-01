@@ -86,12 +86,12 @@ public class SpiningManager : MonoBehaviour {
         transform.rotation = Quaternion.Euler(0, 0, Mathf.RoundToInt(transform.eulerAngles.z + (sectionval*22.5f)));
       
         //finalAngle = Mathf.RoundToInt(transform.eulerAngles.z);
-        Debug.Log("spin" + finalAngle);
+        
 
         yield return new WaitForSeconds(stopDuration);
 
         // Check the final angle to determine the prize
-        for (int i = 0; i < section; i++)
+        /*for (int i = 0; i < section; i++)
         {
             if (finalAngle == i * (360 / section))
             {
@@ -100,9 +100,15 @@ public class SpiningManager : MonoBehaviour {
                     pView.RPC("WinningPanelActive", RpcTarget.AllBuffered, i);
                 }
             }
+        }*/
+
+        if (PhotonNetwork.IsMasterClient)
+        {
+            pView.RPC("WinningPanelActive", RpcTarget.AllBuffered, (int)sectionval);
         }
         finalAngle = Mathf.RoundToInt(transform.eulerAngles.z);
         isCoroutine = true;
+        
     }
     [PunRPC]
 	public void WinningPanelActive(int i) 
@@ -119,30 +125,65 @@ public class SpiningManager : MonoBehaviour {
         {
             pView.RPC("SceneLoad", RpcTarget.AllBuffered);
         }
-
-		int reward = 0;
+        Debug.Log("spin" + i);
+        int reward = 0;
 		int seat = 0;
-		if(i == 0 || i == 3 || i == 5)
+		if(i == 7 || i == 13)
 		{
 			seat = 1;
 			reward = 2;
 		}
-		else if(i == 2 || i == 6)
+		else if(i == 9 || i == 11)
 		{
-            seat = 3;
-            reward = 2;
+            seat = 2;
+            reward = 5;
         }
-		else if(i == 1 || i == 4 ||  i == 7)
+		else if(i == 8 || i == 12)
 		{
-			seat = 2;
+			seat = 3;
 			reward = 8;
 		}
+        else if (i == 1 || i == 3)
+        {
+            seat = 4;
+            reward = 18;
+        }
+        else if (i == 6)
+        {
+            seat = 5;
+            reward = 66;
+        }
+        else if (i == 14)
+        {
+            seat = 6;
+            reward = 50;
+        }
+        else if (i == 10)
+        {
+            seat = 7;
+            reward = 100;
+        }
+        else if (i == 2)
+        {
+            seat = 8;
+            reward = 88;
+        }
+        else if (i == 5 || i == 15)
+        {
+            seat = 9;
+            reward = 30;
+        }
+        else if (i == 0 || i == 4)
+        {
+            seat = 10;
+            reward = 20;
+        }
         ApiManager.Instance.PublicResultApi(seat, reward);
         winText.text = PrizeName[i];
         winningPanel.SetActive(true);
         winningElements[i].gameObject.SetActive(true);
 		AudioManager.instance.Play("Over");
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(5);
         winningPanel.SetActive(false);
         CoinManager.Instance.newGame.gameObject.SetActive(true);
     }

@@ -19,8 +19,8 @@ public class ApiManager : MonoBehaviour
     public Image rankingRecord;
     public Image records;
     public Image profilePic;
-    private string url = "https://yaahabibi.com/api/games/spin/bet";
-    private string resultUrl = "https://yaahabibi.com/api/games/spin/publish-result";
+    private string url = "https://yaahabibi.com/api/games/wheel-car/bet";
+    private string resultUrl = "https://yaahabibi.com/api/games/wheel-car/publish-result";
     private string repeatUrl = "https://yaahabibi.com/api/games/spin/repeat";
     //public TextMeshProUGUI[] pot_text;
 
@@ -73,12 +73,12 @@ public class ApiManager : MonoBehaviour
     }
     public IEnumerator GetHistoryData(int quantity)
     {
-        UnityWebRequest request = UnityWebRequest.Get("https://yaahabibi.com/api/games/spin/my-history?limit=" + quantity);
+        UnityWebRequest request = UnityWebRequest.Get("https://yaahabibi.com/api/games/wheel-car/my-history?limit=" + quantity);
 
         string bearerToken = GetComponent<QueryStringManager>().bearerToken;
         request.SetRequestHeader("Authorization", "Bearer " + bearerToken);
         request.SetRequestHeader("Access-Control-Allow-Origin", "*");
-        request.SetRequestHeader("Access-Control-Allow-Origin", "https://yaahabibi.live/games/spinner/");
+        //request.SetRequestHeader("Access-Control-Allow-Origin", "https://yaahabibi.live/games/spinner/");
 
         yield return request.SendWebRequest();
 
@@ -100,8 +100,8 @@ public class ApiManager : MonoBehaviour
                 obj.transform.localScale = recordHolder.localScale;
                 foreach (var bet in data.bets)
                 {
-                    int amount = bet.amount;
-                    myBets.Add(bet.seat_no);
+                    int amount = bet.bet_amount;
+                    myBets.Add(bet.car_id);
                     myBetAmounts.Add(amount);
                 }
 
@@ -109,7 +109,7 @@ public class ApiManager : MonoBehaviour
                 obj.GetComponent<RecordData>().date.text = date;
                 obj.GetComponent<RecordData>().round.text = "Round: " + data.id.ToString();
 
-                int winNumber = data.winner_seat;
+                int winNumber = data.winner_card_id;
                 int winAmount = data.reward;
                 bool isWinning = false;
                 int winningBetAmount = 0;
@@ -125,8 +125,13 @@ public class ApiManager : MonoBehaviour
                     obj.GetComponent<RecordData>().betImages[i].GetComponent<Image>().sprite = SpiningManager.Instance.winningElements[myBets[i] - 1].sprite;
                     obj.GetComponent<RecordData>().betAmounts[i].GetComponent<TextMeshProUGUI>().text = myBetAmounts[i].ToString();
                 }
+                for (int i = myBets.Count; i < 8; i++)
+                {
+                    obj.GetComponent<RecordData>().betImages[i].gameObject.SetActive(false);
+                    obj.GetComponent<RecordData>().betAmounts[i].gameObject.SetActive(false);
+                }
 
-                if(isWinning)
+                    if (isWinning)
                 {
                     obj.GetComponent<RecordData>().winAmounts.GetComponent<TextMeshProUGUI>().text = "+"+(winningBetAmount*winAmount).ToString();
                 }
@@ -137,11 +142,11 @@ public class ApiManager : MonoBehaviour
                 
                 obj.GetComponent<RecordData>().winImage.GetComponent<Image>().sprite = SpiningManager.Instance.winningElements[winNumber - 1].sprite;
 
-                if (myBets.Count < 2)
+                /*if (myBets.Count < 2)
                 {
                     obj.GetComponent<RecordData>().betImages[1].gameObject.SetActive(false);
                     obj.GetComponent<RecordData>().betAmounts[1].gameObject.SetActive(false);
-                }
+                }*/
 
                 ClearLastTenPrefabs();
             }
@@ -170,7 +175,7 @@ public class ApiManager : MonoBehaviour
         Debug.Log(bearerToken);
         request.SetRequestHeader("Access-Control-Allow-Origin", "*");
         request.SetRequestHeader("Authorization", "Bearer " + bearerToken);
-        request.SetRequestHeader("Access-Control-Allow-Origin", "https://yaahabibi.live/games/spinner/");
+        //request.SetRequestHeader("Access-Control-Allow-Origin", "https://yaahabibi.live/games/spinner/");
 
         //request.SetRequestHeader("Access-Control-Allow-Origin", "*");
 
@@ -187,7 +192,7 @@ public class ApiManager : MonoBehaviour
 
             Debug.Log(request.downloadHandler.text);
             string responseData = request.downloadHandler.text;
-            ProfileRoot myDeserializedClass = Newtonsoft.Json.JsonConvert.DeserializeObject<ProfileRoot>(responseData);
+            ProfileRoot myDeserializedClass = JsonConvert.DeserializeObject<ProfileRoot>(responseData);
 
             coins = myDeserializedClass.data.user.balance;
             string profilePicLink = myDeserializedClass.data.user.thumbnail;
@@ -224,6 +229,7 @@ public class ApiManager : MonoBehaviour
 
     IEnumerator LoadProfilePicFromURL(string url)
     {
+        Debug.Log(url);
         UnityWebRequest www = UnityWebRequestTexture.GetTexture(url);
         yield return www.SendWebRequest();
 
@@ -259,7 +265,7 @@ public class ApiManager : MonoBehaviour
 
     public IEnumerator GetRankingData(int quantity)
     {
-        UnityWebRequest request = UnityWebRequest.Get("https://yaahabibi.com/api/games/spin/leaderboard?limit=" + quantity);
+        UnityWebRequest request = UnityWebRequest.Get("https://yaahabibi.com/api/games/wheel-car/leaderboard?limit=" + quantity);
         string bearerToken = GetComponent<QueryStringManager>().bearerToken;
         request.SetRequestHeader("Authorization", "Bearer " + bearerToken);
         request.SetRequestHeader("Access-Control-Allow-Origin", "*");
@@ -278,7 +284,7 @@ public class ApiManager : MonoBehaviour
             string responseData = request.downloadHandler.text;
             RankingRoot myDeserializedClass = JsonConvert.DeserializeObject<RankingRoot>(responseData);
 
-            foreach (var data in myDeserializedClass.data.history)
+            foreach (var data in myDeserializedClass.data)
             {
                 Image obj = Instantiate(rankingRecord, rankingHolder.transform.position, Quaternion.identity);
                 obj.transform.SetParent(rankingHolder);
@@ -286,10 +292,10 @@ public class ApiManager : MonoBehaviour
 
                 rankNumber++;
                 obj.GetComponent<RRecord>().rank.GetComponent<TextMeshProUGUI>().text = rankNumber.ToString();
-                obj.GetComponent<RRecord>().name.GetComponent<TextMeshProUGUI>().text = data.user.name;
-                obj.GetComponent<RRecord>().earnings.GetComponent<TextMeshProUGUI>().text = data.earnings.ToString();
+                obj.GetComponent<RRecord>().name.GetComponent<TextMeshProUGUI>().text = data.name;
+                obj.GetComponent<RRecord>().earnings.GetComponent<TextMeshProUGUI>().text = data.revenue.ToString();
 
-                string imageLink = data.user.avatar;
+                string imageLink = data.image;
                 Debug.Log(imageLink);
 
                 StartCoroutine(LoadImageCoroutine(imageLink, obj));
@@ -332,8 +338,8 @@ public class ApiManager : MonoBehaviour
     private IEnumerator PostData(string element_no, string amount)
     {
         WWWForm form = new WWWForm();
-        form.AddField("amount", amount);
-        form.AddField("seat_no", element_no);
+        form.AddField("car_id", element_no);
+        form.AddField("bet_amount", amount);
 
         UnityWebRequest request = UnityWebRequest.Post(url, form);
         string bearerToken = GameObject.Find("BackendManager").GetComponent<QueryStringManager>().bearerToken;
@@ -370,7 +376,7 @@ public class ApiManager : MonoBehaviour
     public IEnumerator PublishResult(string element_no, string reward)
     {
         WWWForm form = new WWWForm();
-        form.AddField("seat_no", element_no);
+        form.AddField("car_id", element_no);
         form.AddField("reward", reward);
 
 
@@ -378,7 +384,7 @@ public class ApiManager : MonoBehaviour
         string bearerToken = GameObject.Find("BackendManager").GetComponent<QueryStringManager>().bearerToken;
         request.SetRequestHeader("Authorization", "Bearer " + bearerToken);
         request.SetRequestHeader("Access-Control-Allow-Origin", "*");
-        request.SetRequestHeader("Access-Control-Allow-Origin", "https://yaahabibi.live/games/spinner/");
+        //request.SetRequestHeader("Access-Control-Allow-Origin", "https://yaahabibi.live/games/spinner/");
 
 
         yield return request.SendWebRequest();

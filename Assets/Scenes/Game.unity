@@ -2094,7 +2094,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.2
+  orthographic size: 5.0318184
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3788,7 +3788,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.9999665}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4820,9 +4820,23 @@ MonoBehaviour:
   pot_coin1: 0
   pot_coin2: 0
   pot_coin3: 0
+  pot_coin4: 0
+  pot_coin5: 0
+  pot_coin6: 0
+  pot_coin7: 0
+  pot_coin8: 0
+  pot_coin9: 0
+  pot_coin10: 0
   pot_coin1_save: 0
   pot_coin2_save: 0
   pot_coin3_save: 0
+  pot_coin4_save: 0
+  pot_coin5_save: 0
+  pot_coin6_save: 0
+  pot_coin7_save: 0
+  pot_coin8_save: 0
+  pot_coin9_save: 0
+  pot_coin10_save: 0
   spend_amount: 0
   savedCoins: 1
   newGame: {fileID: 1534566508}
@@ -4998,7 +5012,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581743479}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.2, z: 0}
+  m_LocalPosition: {x: 0, y: 5.0318184, z: 0}
   m_LocalScale: {x: 0.89180005, y: 0.89180005, z: 0.64058733}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5714,7 +5728,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704772444}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.2, z: 0}
+  m_LocalPosition: {x: 0, y: 5.0318184, z: 0}
   m_LocalScale: {x: 0.89180005, y: 0.89180005, z: 0.8918}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7374,7 +7388,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2052996747
 RectTransform:
   m_ObjectHideFlags: 0

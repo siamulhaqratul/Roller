@@ -1,26 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Yahbibi GAME\\Office git\\Roller\\",
+  "WorkspaceRootPath": "F:\\GitHub\\Roller\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|D:\\Yahbibi GAME\\Office git\\Roller\\assets\\script\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|F:\\GitHub\\Roller\\assets\\script\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|d:\\yahbibi game\\office git\\roller\\assets\\script\\spiningmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spiningmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|f:\\github\\roller\\assets\\script\\rankingrecorddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rankingrecorddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|D:\\Yahbibi GAME\\Office git\\Roller\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|f:\\github\\roller\\assets\\script\\historydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\historydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|F:\\GitHub\\Roller\\assets\\script\\querystringmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\querystringmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|F:\\GitHub\\Roller\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|D:\\Yahbibi GAME\\Office git\\Roller\\assets\\script\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|F:\\GitHub\\Roller\\assets\\script\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|D:\\Yahbibi GAME\\Office git\\Roller\\assets\\script\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\apimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|F:\\GitHub\\Roller\\assets\\script\\spiningmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spiningmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|f:\\github\\roller\\assets\\script\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA2ACF93-7A80-1426-6162-BBAF66038056}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "RankingRecordData.cs",
+              "DocumentMoniker": "F:\\GitHub\\Roller\\Assets\\Script\\RankingRecordData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RankingRecordData.cs",
+              "ToolTip": "F:\\GitHub\\Roller\\Assets\\Script\\RankingRecordData.cs",
+              "RelativeToolTip": "Assets\\Script\\RankingRecordData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:40:25.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HistoryData.cs",
+              "DocumentMoniker": "F:\\GitHub\\Roller\\Assets\\Script\\HistoryData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\HistoryData.cs",
+              "ToolTip": "F:\\GitHub\\Roller\\Assets\\Script\\HistoryData.cs",
+              "RelativeToolTip": "Assets\\Script\\HistoryData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:54:02.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QueryStringManager.cs",
+              "DocumentMoniker": "F:\\GitHub\\Roller\\Assets\\Script\\QueryStringManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\QueryStringManager.cs",
+              "ToolTip": "F:\\GitHub\\Roller\\Assets\\Script\\QueryStringManager.cs",
+              "RelativeToolTip": "Assets\\Script\\QueryStringManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T04:57:57.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CoinManager.cs",
-              "DocumentMoniker": "D:\\Yahbibi GAME\\Office git\\Roller\\Assets\\Script\\CoinManager.cs",
+              "DocumentMoniker": "F:\\GitHub\\Roller\\Assets\\Script\\CoinManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CoinManager.cs",
-              "ToolTip": "D:\\Yahbibi GAME\\Office git\\Roller\\Assets\\Script\\CoinManager.cs",
+              "ToolTip": "F:\\GitHub\\Roller\\Assets\\Script\\CoinManager.cs",
               "RelativeToolTip": "Assets\\Script\\CoinManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAWAAAA",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAhwFwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T06:35:18.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "SpiningManager.cs",
-              "DocumentMoniker": "D:\\Yahbibi GAME\\Office git\\Roller\\Assets\\Script\\SpiningManager.cs",
+              "DocumentMoniker": "F:\\GitHub\\Roller\\Assets\\Script\\SpiningManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SpiningManager.cs",
-              "ToolTip": "D:\\Yahbibi GAME\\Office git\\Roller\\Assets\\Script\\SpiningManager.cs",
+              "ToolTip": "F:\\GitHub\\Roller\\Assets\\Script\\SpiningManager.cs",
               "RelativeToolTip": "Assets\\Script\\SpiningManager.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAA0wDUAAAAlAAAA",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAhwMAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T11:07:21.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "NetworkManager.cs",
-              "DocumentMoniker": "D:\\Yahbibi GAME\\Office git\\Roller\\Assets\\Script\\NetworkManager.cs",
+              "DocumentMoniker": "F:\\GitHub\\Roller\\Assets\\Script\\NetworkManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\NetworkManager.cs",
-              "ToolTip": "D:\\Yahbibi GAME\\Office git\\Roller\\Assets\\Script\\NetworkManager.cs",
+              "ToolTip": "F:\\GitHub\\Roller\\Assets\\Script\\NetworkManager.cs",
               "RelativeToolTip": "Assets\\Script\\NetworkManager.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAIwD8AAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T11:10:25.347Z"
+              "WhenOpened": "2024-04-21T11:10:25.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\Yahbibi GAME\\Office git\\Roller\\Assets\\Script\\GameManager.cs",
+              "DocumentMoniker": "F:\\GitHub\\Roller\\Assets\\Script\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
-              "ToolTip": "D:\\Yahbibi GAME\\Office git\\Roller\\Assets\\Script\\GameManager.cs",
+              "ToolTip": "F:\\GitHub\\Roller\\Assets\\Script\\GameManager.cs",
               "RelativeToolTip": "Assets\\Script\\GameManager.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAWwC8AAAAuAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAArwC8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T05:20:05.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ApiManager.cs",
-              "DocumentMoniker": "D:\\Yahbibi GAME\\Office git\\Roller\\Assets\\Script\\ApiManager.cs",
+              "DocumentMoniker": "F:\\GitHub\\Roller\\Assets\\Script\\ApiManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ApiManager.cs",
-              "ToolTip": "D:\\Yahbibi GAME\\Office git\\Roller\\Assets\\Script\\ApiManager.cs",
+              "ToolTip": "F:\\GitHub\\Roller\\Assets\\Script\\ApiManager.cs",
               "RelativeToolTip": "Assets\\Script\\ApiManager.cs",
-              "ViewState": "AQIAALIBAAAAAAAAAIBJwJ0BAAAjAAAA",
+              "ViewState": "AQIAACABAAAAAAAAAAAkwCkBAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T05:20:19.765Z"
+              "WhenOpened": "2024-04-16T05:20:19.765Z",
+              "EditorCaption": ""
             }
           ]
         }
