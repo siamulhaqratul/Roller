@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviourPun
     public Toggle toggleButton;
     PhotonView pView;
     public Image newGame;
+    bool isRepeatBetPossible = true;
 
     private void Awake()
     {
@@ -66,8 +67,23 @@ public class GameManager : MonoBehaviourPun
         {
             Debug.Log("Toggle is ON");
             PlayerPrefs.SetInt("Toogle value", 1);
-            if (CoinManager.Instance.pot_coin1 == 0 && CoinManager.Instance.pot_coin2 == 0 && CoinManager.Instance.pot_coin1 == 0)
+
+            
+            for (int i = 0; i < 10; i++)
+            {
+                if (CoinManager.Instance.pot_coin[i] != 0)
+                {
+                    isRepeatBetPossible = false;
+                }
+            }
+
+            if (isRepeatBetPossible)
+            {
+                Debug.Log("Repeat Bet Enabled 2");
                 ApiManager.Instance.PublicRepeatBet();
+                isRepeatBetPossible = false;
+            }
+                
         }
         else
         {

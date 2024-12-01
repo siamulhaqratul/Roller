@@ -21,7 +21,7 @@ public class ApiManager : MonoBehaviour
     public Image profilePic;
     private string url = "https://yaahabibi.com/api/games/wheel-car/bet";
     private string resultUrl = "https://yaahabibi.com/api/games/wheel-car/publish-result";
-    private string repeatUrl = "https://yaahabibi.com/api/games/spin/repeat";
+    private string repeatUrl = "https://yaahabibi.com/api/games/wheel-car/repeat";
     //public TextMeshProUGUI[] pot_text;
 
 
@@ -34,15 +34,33 @@ public class ApiManager : MonoBehaviour
     public bool isHistoryActive = false;
     public bool isRankingActive = false;
     private int r1, r2, r3;
+    public int totalRepeatBet;
+    public List<int> myRepeatBets = new List<int>();
+    public List<int> myRepeatBetAmounts = new List<int>();
+    bool isRepeatBetPossible = true;
     void Start()
     {
         StartCoroutine(GetPlayerProfileData());
 
         if (PlayerPrefs.GetInt("Toogle value") == 1)
         {
-            Debug.Log("Repeat Bet Enabled");
+            
             GameObject.Find("Toggle").GetComponent<Toggle>().isOn = true;
-            PublicRepeatBet();
+            
+            
+            for (int i = 0; i < 10; i++)
+            {
+                if (CoinManager.Instance.pot_coin[i] != 0)
+                {
+                    isRepeatBetPossible = false;
+                }
+            }
+            if (isRepeatBetPossible)
+            {
+                Debug.Log("Repeat Bet Enabled 1");
+                PublicRepeatBet();
+                isRepeatBetPossible = false;
+            }
         }
         else
         {
@@ -222,7 +240,6 @@ public class ApiManager : MonoBehaviour
               }*/
             Debug.Log("Coins " + coins);
             coin_text.text = coins.ToString();
-
         }
 
     }
@@ -295,7 +312,7 @@ public class ApiManager : MonoBehaviour
                 obj.GetComponent<RRecord>().name.GetComponent<TextMeshProUGUI>().text = data.name;
                 obj.GetComponent<RRecord>().earnings.GetComponent<TextMeshProUGUI>().text = data.revenue.ToString();
 
-                string imageLink = data.image;
+                string imageLink = data.image ;
                 Debug.Log(imageLink);
 
                 StartCoroutine(LoadImageCoroutine(imageLink, obj));
@@ -429,10 +446,7 @@ public class ApiManager : MonoBehaviour
         string bearer = GameObject.Find("BackendManager").GetComponent<QueryStringManager>().bearerToken;
         request.SetRequestHeader("Authorization", "Bearer " + bearer);
         request.SetRequestHeader("Access-Control-Allow-Origin", "*");
-        request.SetRequestHeader("Access-Control-Allow-Origin", "https://yaahabibi.live/games/spinner/");
-        //request.SetRequestHeader("Access-Control-Allow-Origin", "*");
-
-
+        //request.SetRequestHeader("Access-Control-Allow-Origin", "https://yaahabibi.live/games/spinner/");
 
         yield return request.SendWebRequest();
 
@@ -445,7 +459,86 @@ public class ApiManager : MonoBehaviour
 
             string responseData = request.downloadHandler.text;
             Debug.Log("repeat bid" + responseData);
-            RepeatBidMain myDeserializedClass = JsonConvert.DeserializeObject<RepeatBidMain>(responseData);
+            RepeatRoot myDeserializedClass = JsonConvert.DeserializeObject<RepeatRoot>(responseData);
+
+            totalRepeatBet = myDeserializedClass.data.total_amount;
+            
+            //Debug.Log("Repeat Bet True");
+            foreach (var bet in myDeserializedClass.data.bets)
+            {
+                int amount = bet.bet_amount;
+                //myRepeatBets.Add(bet.car_id);
+                //myRepeatBetAmounts.Add(amount);
+                Debug.Log("Seat " + bet.car_id + ": " + bet.bet_amount);
+
+                switch (bet.car_id)
+                {
+                    case 1:
+                        CoinManager.Instance.pot_coin[0] += amount;
+                        CoinManager.Instance.pot_text[0].text = CoinManager.Instance.pot_coin[0].ToString();
+                        Debug.Log("Enter to spend coins-1 : " + amount);
+                        break;
+
+                    case 2:
+                        CoinManager.Instance.pot_coin[1] += amount;
+                        CoinManager.Instance.pot_text[1].text = CoinManager.Instance.pot_coin[1].ToString();
+                        Debug.Log("Enter to spend coins-2 : " + amount);
+                        break;
+
+                    case 3:
+                        CoinManager.Instance.pot_coin[2] += amount;
+                        CoinManager.Instance.pot_text[2].text = CoinManager.Instance.pot_coin[2].ToString();
+                        Debug.Log("Enter to spend coins-3 : " + amount);
+                        break;
+
+                    case 4:
+                        CoinManager.Instance.pot_coin[3] += amount;
+                        CoinManager.Instance.pot_text[3].text = CoinManager.Instance.pot_coin[3].ToString();
+                        Debug.Log("Enter to spend coins-4 : " + amount);
+                        break;
+                    case 5:
+                        CoinManager.Instance.pot_coin[4] += amount;
+                        CoinManager.Instance.pot_text[4].text = CoinManager.Instance.pot_coin[4].ToString();
+                        Debug.Log("Enter to spend coins-5 : " + amount);
+                        break;
+
+                    case 6:
+                        CoinManager.Instance.pot_coin[5] += amount;
+                        CoinManager.Instance.pot_text[5].text = CoinManager.Instance.pot_coin[5].ToString();
+                        Debug.Log("Enter to spend coins-6 : " + amount);
+                        break;
+
+                    case 7:
+                        CoinManager.Instance.pot_coin[6] += amount;
+                        CoinManager.Instance.pot_text[6].text = CoinManager.Instance.pot_coin[6].ToString();
+                        Debug.Log("Enter to spend coins-7 : " + amount);
+                        break;
+
+                    case 8:
+                        CoinManager.Instance.pot_coin[7] += amount;
+                        CoinManager.Instance.pot_text[7].text = CoinManager.Instance.pot_coin[7].ToString();
+                        Debug.Log("Enter to spend coins-8 : " + amount);
+                        break;
+
+                    case 9:
+                        CoinManager.Instance.pot_coin[8] += amount;
+                        CoinManager.Instance.pot_text[8].text = CoinManager.Instance.pot_coin[8].ToString();
+                        Debug.Log("Enter to spend coins-9 : " + amount);
+                        break;
+
+                    case 10:
+                        CoinManager.Instance.pot_coin[9] += amount;
+                        CoinManager.Instance.pot_text[9].text = CoinManager.Instance.pot_coin[9].ToString();
+                        Debug.Log("Enter to spend coins-10");
+                        break;
+
+                    default:
+                        Debug.Log("Invalid bid_btn_states value: " + bet.car_id);
+                        break;
+                }
+            }
+            
+            
 
             //pot_text[0].text = myDeserializedClass.data.seat_1.ToString();
             /*Debug.Log("Repeat" + myDeserializedClass.data.seat_1);
@@ -458,31 +551,31 @@ public class ApiManager : MonoBehaviour
             PlayerPrefs.SetInt("seat2_amount", myDeserializedClass.data.seat_2);
             PlayerPrefs.SetInt("seat3_amount", myDeserializedClass.data.seat_3);
             PlayerPrefs.Save();*/
-            r1 = myDeserializedClass.data.seat_1;
-            r2 = myDeserializedClass.data.seat_2;
-            r3 = myDeserializedClass.data.seat_3;
-            if (CoinManager.Instance.pot_coin1 == 0 && CoinManager.Instance.pot_coin2 == 0 && CoinManager.Instance.pot_coin1 == 0)
-            {
-                if (r1 > 0)
-                {
-                    Debug.Log("Seat1: " + r1);
-                    CoinManager.Instance.bidbtn(1);
-                    CoinManager.Instance.SpendCoins(r1);
-                }
-                if (r2 > 0)
-                {
-                    Debug.Log("Seat2: " + r2);
-                    CoinManager.Instance.bidbtn(2);
-                    CoinManager.Instance.SpendCoins(r2);
-                }
-                if (r3 > 0)
-                {
-                    Debug.Log("Seat3: " + r3);
-                    CoinManager.Instance.bidbtn(3);
-                    CoinManager.Instance.SpendCoins(r3);
-                }
-            }
-            
+            /* r1 = myDeserializedClass.data.seat_1;
+             r2 = myDeserializedClass.data.seat_2;
+             r3 = myDeserializedClass.data.seat_3;
+             if (CoinManager.Instance.CoinManager.Instance.pot_coin1 == 0 && CoinManager.Instance.pot_coin2 == 0 && CoinManager.Instance.pot_coin1 == 0)
+             {
+                 if (r1 > 0)
+                 {
+                     Debug.Log("Seat1: " + r1);
+                     CoinManager.Instance.bidbtn(1);
+                     CoinManager.Instance.SpendCoins(r1);
+                 }
+                 if (r2 > 0)
+                 {
+                     Debug.Log("Seat2: " + r2);
+                     CoinManager.Instance.bidbtn(2);
+                     CoinManager.Instance.SpendCoins(r2);
+                 }
+                 if (r3 > 0)
+                 {
+                     Debug.Log("Seat3: " + r3);
+                     CoinManager.Instance.bidbtn(3);
+                     CoinManager.Instance.SpendCoins(r3);
+                 }
+             }*/
+
 
         }
 
